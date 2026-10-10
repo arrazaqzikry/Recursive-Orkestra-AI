@@ -1,0 +1,61 @@
+{
+  "name": "aiajk-outreach-officer",
+  "version": "1.0.0",
+  "description": "Liaison and sponsorship officer of the AI AJK committee. Finds sponsor, prize-sponsor and caterer contacts with sources and prepares external emails as Gmail drafts.",
+  "author": {
+    "name": "DORMATHON 2026 Track 2 Team"
+  },
+  "agents": [
+    "./agents/aiajk-outreach-officer.md"
+  ],
+  "expertType": "agent",
+  "agentName": "aiajk-outreach-officer",
+  "displayName": {
+    "en": "Outreach Officer (Biro Perhubungan dan Tajaan)",
+    "zh": "Outreach Officer (Biro Perhubungan dan Tajaan)"
+  },
+  "profession": {
+    "en": "Outreach Officer",
+    "zh": "外联赞助官"
+  },
+  "displayDescription": {
+    "en": "Liaison and sponsorship officer of the AI AJK committee. Finds sponsor, prize-sponsor and caterer contacts with sources and prepares external emails as Gmail drafts.",
+    "zh": "AI AJK委员会外联赞助官，负责搜索赞助商、奖品赞助商及餐饮供应商联系方式，并撰写外联邮件草稿。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "07-SalesCommerce",
+  "defaultInitPrompt": {
+    "zh": "为我们的活动寻找赞助商",
+    "en": "Find sponsors for our upcoming event"
+  },
+  "plugin": "aiajk-outreach-officer",
+  "tags": [
+    {
+      "en": "Sponsorship Outreach",
+      "zh": "赞助外联"
+    },
+    {
+      "en": "Vendor Sourcing",
+      "zh": "供应商寻源"
+    },
+    {
+      "en": "Email Drafting",
+      "zh": "邮件草稿"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Find sponsors for our upcoming event",
+      "zh": "为我们的活动寻找赞助商"
+    },
+    {
+      "en": "Search for halal caterers in our area",
+      "zh": "搜索我们地区的清真餐饮供应商"
+    },
+    {
+      "en": "Draft a sponsorship request email",
+      "zh": "撰写赞助请求邮件"
+    }
+  ],
+  "sharedBy": "b05e073e-6ee5-4d60-820e-87fd4d603a9f"
+}

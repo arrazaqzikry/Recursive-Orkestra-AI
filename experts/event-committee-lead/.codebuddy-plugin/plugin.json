@@ -1,0 +1,113 @@
+{
+  "name": "event-committee-lead",
+  "version": "1.0.0",
+  "description": "Event committee coordination team with six specialized officers for end-to-end event management",
+  "author": {
+    "name": "WorkBuddy AI",
+    "email": "support@workbuddy.ai"
+  },
+  "agents": [
+    "./agents/event-committee-lead-team-lead.md",
+    "./agents/ec-event-director.md",
+    "./agents/ec-budget-officer.md",
+    "./agents/ec-outreach-officer.md",
+    "./agents/ec-task-coordinator.md",
+    "./agents/ec-quality-auditor.md",
+    "./agents/ec-secretary.md"
+  ],
+
+  "expertType": "team",
+  "agentName": "event-committee-lead-team-lead",
+  "teamInfo": {
+    "leadAgent": "event-committee-lead-team-lead",
+    "memberAgents": [
+      "ec-event-director",
+      "ec-budget-officer",
+      "ec-outreach-officer",
+      "ec-task-coordinator",
+      "ec-quality-auditor",
+      "ec-secretary"
+    ]
+  },
+
+  "displayName": {
+    "en": "Event Committee Team",
+    "zh": "活动委员会团队"
+  },
+  "profession": {
+    "en": "Event Committee Team",
+    "zh": "活动委员会团队"
+  },
+  "displayDescription": {
+    "en": "Coordinates event committees end-to-end with six specialized officers covering execution, budget, outreach, tasks, quality, and secretariat.",
+    "zh": "统筹活动委员会全流程，协调执行、预算、外联、任务、审计与秘书六大专员，确保活动按时保质交付。"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "10-ProjectQuality",
+  "defaultInitPrompt": {
+    "zh": "帮我策划一场大学活动，从预算到执行全流程协调",
+    "en": "Help me plan a university event with full coordination from budget to execution"
+  },
+  "plugin": "event-committee-lead",
+  "tags": [
+    { "en": "Event Coordination", "zh": "活动统筹" },
+    { "en": "Committee Management", "zh": "委员会管理" },
+    { "en": "Quality Assurance", "zh": "质量保障" }
+  ],
+  "quickPrompts": [
+    { "en": "Help me plan a university event with full coordination from budget to execution", "zh": "帮我策划一场大学活动，从预算到执行全流程协调" },
+    { "en": "Analyze our committee's task progress - what's overdue?", "zh": "分析我们委员会的任务进度，哪些延期了？" },
+    { "en": "Audit the event proposal for budget and workflow gaps", "zh": "审核活动方案，检查预算和流程是否有遗漏" }
+  ],
+  "members": [
+    {
+      "id": "event-committee-lead-team-lead",
+      "displayName": { "en": "Ke", "zh": "柯统筹" },
+      "profession": { "en": "Coordination Director", "zh": "统筹总监" },
+      "avatar": "avatars/event-committee-lead-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "ec-event-director",
+      "displayName": { "en": "Lei", "zh": "雷事成" },
+      "profession": { "en": "Event Execution Director", "zh": "活动执行总监" },
+      "avatar": "avatars/ec-event-director.png",
+      "role": "member"
+    },
+    {
+      "id": "ec-budget-officer",
+      "displayName": { "en": "Qian", "zh": "钱守衡" },
+      "profession": { "en": "Budget Officer", "zh": "预算官" },
+      "avatar": "avatars/ec-budget-officer.png",
+      "role": "member"
+    },
+    {
+      "id": "ec-outreach-officer",
+      "displayName": { "en": "Lian", "zh": "连达远" },
+      "profession": { "en": "Outreach Officer", "zh": "外联官" },
+      "avatar": "avatars/ec-outreach-officer.png",
+      "role": "member"
+    },
+    {
+      "id": "ec-task-coordinator",
+      "displayName": { "en": "Du", "zh": "杜进安" },
+      "profession": { "en": "Task Coordinator", "zh": "任务协调官" },
+      "avatar": "avatars/ec-task-coordinator.png",
+      "role": "member"
+    },
+    {
+      "id": "ec-quality-auditor",
+      "displayName": { "en": "Yan", "zh": "严审明" },
+      "profession": { "en": "Quality Auditor", "zh": "质量审计官" },
+      "avatar": "avatars/ec-quality-auditor.png",
+      "role": "member"
+    },
+    {
+      "id": "ec-secretary",
+      "displayName": { "en": "Shu", "zh": "舒文记" },
+      "profession": { "en": "Committee Secretary", "zh": "委员会秘书" },
+      "avatar": "avatars/ec-secretary.png",
+      "role": "member"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "aiajk-event-lead",
+  "version": "1.0.0",
+  "description": "Event Lead (Pengarah Program) — director of the AI AJK committee for Malaysian student events. Coordinates a seven-expert team including Gmail Assistant and Drive Finder.",
+  "author": {
+    "name": "DORMATHON 2026 Track 2 Team",
+    "email": "aiajk@dormathon2026.example"
+  },
+  "agents": [
+    "./agents/aiajk-event-lead.md"
+  ],
+  "expertType": "agent",
+  "agentName": "aiajk-event-lead",
+  "displayName": {
+    "en": "Event Lead (Pengarah Program)",
+    "zh": "活动总监 (Pengarah Program)"
+  },
+  "profession": {
+    "en": "Event Committee Director",
+    "zh": "活动委员会总监"
+  },
+  "displayDescription": {
+    "en": "Chatbot and director of the AI AJK committee. Collects event details one question at a time, uses Drive Finder to search Google Drive, confirms them, runs a seven-expert team and emails each AJK member after approval.",
+    "zh": "AI AJK总监，收集活动详情并搜索云端文件，确认后指挥七人专家团队，批准后发送文件和任务。"
+  },
+  "avatar": "avatars/aiajk-event-lead.png",
+  "categoryId": "10-ProjectQuality",
+  "defaultInitPrompt": {
+    "en": "I want to organize an event for my college. Can AI AJK help?",
+    "zh": "我想为学院办一场活动，AI AJK能帮忙吗？"
+  },
+  "plugin": "aiajk-event-lead",
+  "tags": [
+    {
+      "en": "Event Planning",
+      "zh": "活动策划"
+    },
+    {
+      "en": "Committee Management",
+      "zh": "委员会管理"
+    },
+    {
+      "en": "Malaysian Student Events",
+      "zh": "马来西亚学生活动"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "I want to organize an event for my college. Can AI AJK help?",
+      "zh": "我想为学院办一场活动，AI AJK能帮忙吗？"
+    },
+    {
+      "en": "/newevent — Start planning a new event",
+      "zh": "/newevent — 开始规划新活动"
+    },
+    {
+      "en": "/status — Check my event progress and deadlines",
+      "zh": "/status — 查看活动进度和截止日期"
+    }
+  ],
+  "sharedBy": "b05e073e-6ee5-4d60-820e-87fd4d603a9f"
+}

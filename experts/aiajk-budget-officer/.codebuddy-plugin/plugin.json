@@ -1,0 +1,61 @@
+{
+  "name": "aiajk-budget-officer",
+  "version": "1.0.0",
+  "description": "Treasurer of the AI AJK committee. Builds a formula-driven Excel budget with a Prizes sheet and rebalances it when spending exceeds income.",
+  "author": {
+    "name": "DORMATHON 2026 Track 2 Team"
+  },
+  "agents": [
+    "./agents/aiajk-budget-officer.md"
+  ],
+  "expertType": "agent",
+  "agentName": "aiajk-budget-officer",
+  "displayName": {
+    "en": "Budget Officer (Bendahari)",
+    "zh": "Budget Officer (Bendahari)"
+  },
+  "profession": {
+    "en": "Budget Officer",
+    "zh": "预算官"
+  },
+  "displayDescription": {
+    "en": "Treasurer of the AI AJK committee. Builds a formula-driven Excel budget with a Prizes sheet and rebalances it when spending exceeds income.",
+    "zh": "AI AJK委员会财务主管，构建含奖品明细的Excel公式预算表，超支时自动重新分配预算。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "04-DataAI",
+  "defaultInitPrompt": {
+    "zh": "帮我建一份含奖品和实时公式的活动预算表",
+    "en": "Build an event budget with prizes and live formulas"
+  },
+  "plugin": "aiajk-budget-officer",
+  "tags": [
+    {
+      "en": "Event Budget",
+      "zh": "活动预算"
+    },
+    {
+      "en": "Excel Formulas",
+      "zh": "Excel公式"
+    },
+    {
+      "en": "Budget Rebalancing",
+      "zh": "预算调配"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Build an event budget with prizes and live formulas",
+      "zh": "帮我建一份含奖品和实时公式的活动预算表"
+    },
+    {
+      "en": "Rebalance the budget when spending exceeds income",
+      "zh": "支出超过收入时帮我重新分配预算"
+    },
+    {
+      "en": "Generate a budget summary for the proposal",
+      "zh": "生成预算摘要供提案引用"
+    }
+  ],
+  "sharedBy": "b05e073e-6ee5-4d60-820e-87fd4d603a9f"
+}

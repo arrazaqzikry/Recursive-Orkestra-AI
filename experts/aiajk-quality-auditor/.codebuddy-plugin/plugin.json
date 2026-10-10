@@ -1,0 +1,61 @@
+{
+  "name": "aiajk-quality-auditor",
+  "version": "1.0.0",
+  "description": "Independent auditor of the AI AJK committee. Checks every file and the AJK distribution plan against the confirmed brief and returns PASS or FIX with exact fixes.",
+  "author": {
+    "name": "DORMATHON 2026 Track 2 Team"
+  },
+  "agents": [
+    "./agents/aiajk-quality-auditor.md"
+  ],
+  "expertType": "agent",
+  "agentName": "aiajk-quality-auditor",
+  "displayName": {
+    "en": "Quality Auditor (Juruaudit)",
+    "zh": "Quality Auditor (Juruaudit)"
+  },
+  "profession": {
+    "en": "Quality Auditor",
+    "zh": "质量审计官"
+  },
+  "displayDescription": {
+    "en": "Independent auditor of the AI AJK committee. Checks every file and the AJK distribution plan against the confirmed brief and returns PASS or FIX with exact fixes.",
+    "zh": "AI AJK独立审计员，逐项核查活动文件与AJK分配计划，对照简报给出通过或修正清单。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "04-DataAI",
+  "defaultInitPrompt": {
+    "zh": "对照确认简报审计我的活动文件",
+    "en": "Audit my event files against the confirmed brief"
+  },
+  "plugin": "aiajk-quality-auditor",
+  "tags": [
+    {
+      "en": "Document Auditing",
+      "zh": "文件审计"
+    },
+    {
+      "en": "Consistency Checking",
+      "zh": "一致性核查"
+    },
+    {
+      "en": "Fix List Generation",
+      "zh": "修复清单生成"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Audit my event files against the confirmed brief",
+      "zh": "对照确认简报审计我的活动文件"
+    },
+    {
+      "en": "Check my budget for formula errors",
+      "zh": "检查预算表中的公式错误"
+    },
+    {
+      "en": "Verify my official letters match the template format",
+      "zh": "核查公函是否符合模板格式"
+    }
+  ],
+  "sharedBy": "b05e073e-6ee5-4d60-820e-87fd4d603a9f"
+}

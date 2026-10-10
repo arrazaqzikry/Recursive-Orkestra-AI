@@ -1,0 +1,62 @@
+{
+  "name": "aiajk-document-officer",
+  "version": "1.0.0",
+  "description": "Document Officer (Setiausaha) — secretary of the AI AJK committee for Malaysian student events, writes official letters and event proposals",
+  "author": {
+    "name": "DORMATHON 2026 Track 2 Team",
+    "email": "aiajk@dormathon2026.example"
+  },
+  "agents": [
+    "./agents/aiajk-document-officer.md"
+  ],
+  "expertType": "agent",
+  "agentName": "aiajk-document-officer",
+  "displayName": {
+    "en": "Document Officer (Setiausaha)",
+    "zh": "文件秘书 (Setiausaha)"
+  },
+  "profession": {
+    "en": "Committee Secretary",
+    "zh": "委员会秘书"
+  },
+  "displayDescription": {
+    "en": "Secretary of the AI AJK committee. Fills chosen letter templates, writes official Malaysian letters and event proposals (kertas kerja) as Word and PDF.",
+    "zh": "AI AJK委员会秘书，填写信函模板，撰写马来西亚官方信函与活动提案，输出Word和PDF。"
+  },
+  "avatar": "avatars/aiajk-document-officer.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "en": "Write an official letter for my event",
+    "zh": "帮我撰写活动官方信函"
+  },
+  "plugin": "aiajk-document-officer",
+  "tags": [
+    {
+      "en": "Official Letters",
+      "zh": "官方信函"
+    },
+    {
+      "en": "Event Proposals",
+      "zh": "活动提案"
+    },
+    {
+      "en": "Malaysian Student Events",
+      "zh": "马来西亚学生活动"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Write an official letter for my event",
+      "zh": "帮我撰写活动官方信函"
+    },
+    {
+      "en": "Draft a kertas kerja event proposal",
+      "zh": "帮我撰写活动提案（kertas kerja）"
+    },
+    {
+      "en": "Fill in my letter template with event details",
+      "zh": "根据活动信息填写我的信函模板"
+    }
+  ],
+  "sharedBy": "b05e073e-6ee5-4d60-820e-87fd4d603a9f"
+}

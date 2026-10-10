@@ -1,0 +1,61 @@
+{
+  "name": "aiajk-ajk-coordinator",
+  "version": "1.0.0",
+  "description": "Committee coordinator that builds AJK task trackers, distribution plans, and role-based email drafts for Malaysian student events.",
+  "author": {
+    "name": "DORMATHON 2026 Track 2"
+  },
+  "agents": [
+    "./agents/aiajk-ajk-coordinator.md"
+  ],
+  "expertType": "agent",
+  "agentName": "aiajk-ajk-coordinator",
+  "displayName": {
+    "en": "AJK Coordinator (Penyelaras AJK)",
+    "zh": "AJK统筹官 (Penyelaras AJK)"
+  },
+  "profession": {
+    "en": "Committee Task Coordinator",
+    "zh": "委员会任务统筹官"
+  },
+  "displayDescription": {
+    "en": "Committee coordinator that builds AJK task trackers with countdowns, distributes files by position, and drafts role-based emails and reminders.",
+    "zh": "AI AJK委员会的协调人，从AJK名单构建任务跟踪表，按职位分配文件与任务，撰写角色化邮件和提醒。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "09-OperationsHR",
+  "defaultInitPrompt": {
+    "zh": "根据活动日期倒推构建AJK任务跟踪表",
+    "en": "Build an AJK task tracker with countdown from the event date"
+  },
+  "plugin": "aiajk-ajk-coordinator",
+  "tags": [
+    {
+      "en": "Event Planning",
+      "zh": "活动策划"
+    },
+    {
+      "en": "Task Tracking",
+      "zh": "任务追踪"
+    },
+    {
+      "en": "Committee Coordination",
+      "zh": "委员会协调"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Build an AJK task tracker with countdown from the event date",
+      "zh": "根据活动日期倒推构建AJK任务跟踪表"
+    },
+    {
+      "en": "Create a distribution plan matching files to AJK positions",
+      "zh": "创建按AJK职位匹配文件的分发计划"
+    },
+    {
+      "en": "Draft role-based emails and reminders for committee members",
+      "zh": "为委员会成员撰写角色化邮件和提醒"
+    }
+  ],
+  "sharedBy": "b05e073e-6ee5-4d60-820e-87fd4d603a9f"
+}
